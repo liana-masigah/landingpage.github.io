@@ -1,0 +1,56 @@
+:root {
+    --height: 10%;
+    --width: 80%;
+    --max-width: 100%;
+    --border: 3px solid #e1e6db;
+    --overflow: hidden;
+    --flex-wrap: wrap;
+    --border-radius: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.image-size {
+    width: 10%;
+    height: auto;
+}
+
+.size-div {
+    height: var(--height);
+    width: var(--width);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: row;
+}
+
+.build-div {
+    max-width: var(--max-width);
+}
+
+.ready-div {
+    border: var(--border);
+}
+
+.contact-div {
+    max-width: var(--max-width);
+    background-color: rgb(56, 52, 52);
+    display: flex;
+    flex-direction: row;
+}
+
+#grow-div {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-div {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
