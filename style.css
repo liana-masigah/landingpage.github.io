@@ -21,6 +21,15 @@ main {
     gap: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    margin: 15px;
+}
+
 .build-div {
     display: flex;
     flex-wrap: var(--flex-wrap);
@@ -60,6 +69,12 @@ main {
 
 .cont-div {
     flex: 33%;
+}
+
+.p-foot {
+    margin-left: 15px;
+    margin-top: 50px;
+
 }
 
 #grow-div {
