@@ -11,7 +11,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
 }
 
 main {
@@ -19,52 +18,77 @@ main {
     flex-wrap: var(--flex-wrap);
     flex-direction: column;
     gap: 30px;
+    margin: 50px;
+    background-color: whitesmoke;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 i {
     margin: 15px;
 }
 
-.build-div {
+header {
     display: flex;
     flex-wrap: var(--flex-wrap);
     max-width: var(--max-width);
+    background-image: url(images/bg-hero-desktop.svg);
+}
+
+footer {
+    max-width: var(--max-width);
+    background-color: rgb(7, 65, 65);
+    color: white;
+    display: flex;
+    flex-wrap: var(--flex-wrap);
+    margin: 0px;
+}
+
+.get-button {
+    background-color: rgb(233, 37, 233);
+    border-radius: 10px;
+    padding: 15px;
+    border-style: none;
+    color: white;
+    margin-top: 15px;
 }
 
 .size-div {
     height: var(--height);
-    width: var(--width);
+    max-width: var(--max-width);
     border: var(--border);
     border-radius: var(--border-radius);
 }
 
 .image-size {
-    width: 400px;
+    max-width: var(--max-width);
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .div-width {
+    display: flex;
     flex: 50%;
-}
-
-.build-div {
-    max-width: var(--max-width);
+    flex-wrap: var(--flex-wrap);
+    margin: auto;
 }
 
 .ready-div {
     border: var(--border);
-}
-
-.contact-div {
-    max-width: var(--max-width);
-    background-color: rgb(5, 63, 63);
+    width: 50%;
+    background-color: white;
+    border-radius: 30px;
     display: flex;
-    flex-wrap: var(--flex-wrap);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cont-div {
@@ -96,4 +120,12 @@ i {
 #conv-div {
     display: flex;
     flex-wrap: var(--flex-wrap);
+}
+
+#try-button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: #666864;
 }
